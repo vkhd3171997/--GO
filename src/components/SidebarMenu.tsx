@@ -60,19 +60,19 @@ const SidebarMenu = ({
           <div className="flex flex-col items-center gap-1 mt-7">
             <Link
               to="/"
-              className="py-2 border-y border-secondaryBrown w-full block flex justify-center"
+              
             >
               Home
             </Link>
             <Link
               to="/shop"
-              className="py-2 border-y border-secondaryBrown w-full block flex justify-center"
+             
             >
               Shop
             </Link>
             <Link
               to="/search"
-              className="py-2 border-y border-secondaryBrown w-full block flex justify-center"
+            
             >
               Search
             </Link>
@@ -80,7 +80,7 @@ const SidebarMenu = ({
               <>
                 <button
                   onClick={logout}
-                  className="py-2 border-y border-secondaryBrown w-full block flex justify-center"
+                
                 >
                   Logout
                 </button>
@@ -89,13 +89,13 @@ const SidebarMenu = ({
               <>
                 <Link
                   to="/login"
-                  className="py-2 border-y border-secondaryBrown w-full block flex justify-center"
+                
                 >
                   Sign in
                 </Link>
                 <Link
                   to="/register"
-                  className="py-2 border-y border-secondaryBrown w-full block flex justify-center"
+                
                 >
                   Sign up
                 </Link>
@@ -103,7 +103,7 @@ const SidebarMenu = ({
             )}
             <Link
               to="/cart"
-              className="py-2 border-y border-secondaryBrown w-full block flex justify-center"
+          
             >
               Cart
             </Link>

@@ -105,7 +105,7 @@ const Checkout = () => {
                     id="email-address"
                     name="emailAddress"
                     autoComplete="email"
-                    className="block w-full py-2 indent-2 border-gray-300 outline-none focus:border-gray-400 border border shadow-sm sm:text-sm"
+                   
                     required={true}
                   />
                 </div>
@@ -131,7 +131,7 @@ const Checkout = () => {
                       id="first-name"
                       name="firstName"
                       autoComplete="given-name"
-                      className="block w-full py-2 indent-2 border-gray-300 outline-none focus:border-gray-400 border border shadow-sm sm:text-sm"
+                     
                       required={true}
                     />
                   </div>
@@ -150,7 +150,7 @@ const Checkout = () => {
                       id="last-name"
                       name="lastName"
                       autoComplete="family-name"
-                      className="block w-full py-2 indent-2 border-gray-300 outline-none focus:border-gray-400 border border shadow-sm sm:text-sm"
+                    
                       required={true}
                     />
                   </div>
@@ -168,7 +168,7 @@ const Checkout = () => {
                       type="text"
                       name="company"
                       id="company"
-                      className="block w-full py-2 indent-2 border-gray-300 outline-none focus:border-gray-400 border border shadow-sm sm:text-sm"
+                     
                       required={true}
                     />
                   </div>
@@ -187,7 +187,7 @@ const Checkout = () => {
                       name="address"
                       id="address"
                       autoComplete="street-address"
-                      className="block w-full py-2 indent-2 border-gray-300 outline-none focus:border-gray-400 border border shadow-sm sm:text-sm"
+                    
                       required={true}
                     />
                   </div>
@@ -205,7 +205,7 @@ const Checkout = () => {
                       type="text"
                       name="apartment"
                       id="apartment"
-                      className="block w-full py-2 indent-2 border-gray-300 outline-none focus:border-gray-400 border border shadow-sm sm:text-sm"
+                     
                       required={true}
                     />
                   </div>
@@ -224,7 +224,7 @@ const Checkout = () => {
                       name="city"
                       id="city"
                       autoComplete="address-level2"
-                      className="block w-full py-2 indent-2 border-gray-300 outline-none focus:border-gray-400 border border shadow-sm sm:text-sm"
+            
                       required={true}
                     />
                   </div>
@@ -242,7 +242,7 @@ const Checkout = () => {
                       id="country"
                       name="country"
                       autoComplete="country-name"
-                      className="block w-full py-2 indent-2 border-gray-300 outline-none focus:border-gray-400 border border shadow-sm sm:text-sm"
+                 
                       required={true}
                     >
                       <option>United States</option>
@@ -265,7 +265,7 @@ const Checkout = () => {
                       name="region"
                       id="region"
                       autoComplete="address-level1"
-                      className="block w-full py-2 indent-2 border-gray-300 outline-none focus:border-gray-400 border border shadow-sm sm:text-sm"
+                    
                       required={true}
                     />
                   </div>
@@ -284,7 +284,7 @@ const Checkout = () => {
                       name="postalCode"
                       id="postal-code"
                       autoComplete="postal-code"
-                      className="block w-full py-2 indent-2 border-gray-300 outline-none focus:border-gray-400 border border shadow-sm sm:text-sm"
+                
                       required={true}
                     />
                   </div>
@@ -303,7 +303,7 @@ const Checkout = () => {
                       name="phone"
                       id="phone"
                       autoComplete="tel"
-                      className="block w-full py-2 indent-2 border-gray-300 outline-none focus:border-gray-400 border border shadow-sm sm:text-sm"
+                      
                       required={true}
                     />
                   </div>
@@ -362,7 +362,7 @@ const Checkout = () => {
                       id="card-number"
                       name="cardNumber"
                       autoComplete="cc-number"
-                      className="block w-full py-2 indent-2 border-gray-300 outline-none focus:border-gray-400 border border shadow-sm sm:text-sm"
+                   
                       required={true}
                     />
                   </div>
@@ -381,7 +381,7 @@ const Checkout = () => {
                       id="name-on-card"
                       name="nameOnCard"
                       autoComplete="cc-name"
-                      className="block w-full py-2 indent-2 border-gray-300 outline-none focus:border-gray-400 border border shadow-sm sm:text-sm"
+                   
                       required={true}
                     />
                   </div>
@@ -400,7 +400,7 @@ const Checkout = () => {
                       name="expirationDate"
                       id="expiration-date"
                       autoComplete="cc-exp"
-                      className="block w-full py-2 indent-2 border-gray-300 outline-none focus:border-gray-400 border border shadow-sm sm:text-sm"
+      
                       required={true}
                     />
                   </div>
@@ -419,7 +419,7 @@ const Checkout = () => {
                       name="cvc"
                       id="cvc"
                       autoComplete="csc"
-                      className="block w-full py-2 indent-2 border-gray-300 outline-none focus:border-gray-400 border border shadow-sm sm:text-sm"
+                     
                       required={true}
                     />
                   </div>
